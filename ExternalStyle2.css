@@ -1,0 +1,118 @@
+
+A:link {color: gray}
+A:visited, A:active {color: green}
+A:hover {text-decoration: overline; color: teal}
+	
+Body {
+	background-color: white;
+	font-family: cambria;
+	color: gray	
+	}
+
+H1 {font-size: 50pt; text-align: right}
+H2 {font-size: 25pt; text-align: right}
+H3 {font-size: 10pt; text-align: center}
+H4 {text-align: center}
+H5 {font-size: 15pt}
+
+P {font-size: 10pt; font-family: monospace}
+
+Table {
+	width: 400px; 
+	font-family: monospace; 
+	color: white; 
+	background-color: green;
+	margin: .8em;
+	border-color: darkgreen}
+
+
+Form {
+	font-family: monospace; 
+	text-align: center; 
+	color: white; 
+	background-color: green}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+	A, .Body, .H1, .H2, .H3, .H4, .H5, .P, .Table, .Form{
+		width: 100px;
+
+	}
+  
+  }
+  
+  /*
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+	A, .Body, .H1, .H2, .H3, .H4, .H5, .P, .Table, .Form{
+		width: 100px;
+
+	}
+  
+  }
+  
+  /*
+	##Device = Tablets, Ipads (portrait)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+	A, .Body, .H1, .H2, .H3, .H4, .H5, .P, .Table, .Form{
+		width: 100px;
+
+	}
+  
+  }
+  
+  /*
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+	A, .Body, .H1, .H2, .H3, .H4, .H5, .P, .Table, .Form{
+		width: 100px;
+
+	}
+  
+  }
+  
+  /*
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+	A, .Body, .H1, .H2, .H3, .H4, .H5, .P, .Table, .Form{
+		width: 100px;
+
+	}
+  
+  }
+  
+  /*
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+	A, .Body, .H1, .H2, .H3, .H4, .H5, .P, .Table, .Form{
+		width: 100px;
+
+	}
+  
+  }
